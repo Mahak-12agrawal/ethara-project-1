@@ -1,316 +1,318 @@
-# Student Data Management System
+# Prompt
 
-## 📌 Project Overview
+## Context and Role
 
-The Student Data Management System is a modern full-stack dashboard application designed to help schools, colleges, institutes, and educational organizations efficiently manage student information, attendance, academic records, and performance analytics.
+As a Full Stack Developer specializing in modern dashboard applications and scalable database-driven systems, you are responsible for designing and developing a professional Student Data Management System that delivers a smooth, responsive, secure, and production-level user experience.
 
-The platform provides a professional, responsive, secure, and user-friendly interface with modern UI/UX practices, smooth animations, responsive layouts, advanced filtering, and scalable backend architecture.
+The platform should help schools, colleges, institutes, universities, and educational organizations efficiently manage student records, academic information, attendance tracking, and performance analytics through a clean and modern dashboard interface.
+
+The application should feel visually engaging, highly interactive, easy to navigate, and beginner-friendly while maintaining accessibility standards, scalability, optimized performance, and secure data handling.
+
+The system must support administrators, teachers, and authorized staff members in managing student information efficiently through responsive UI components, smooth animations, organized dashboards, advanced search capabilities, and secure backend architecture.
 
 ---
 
-# 🎯 Objective
+# Objective
 
 Develop a complete full-stack Student Data Management System that:
 
-- Allows users to add, manage, update, and delete student records
-- Provides a modern responsive dashboard interface
-- Includes advanced search and filtering functionality
-- Displays student data using responsive tables and cards
-- Supports smooth transitions and lightweight animations
-- Stores student information securely in a database
-- Provides role-based access and secure authentication
+* Allows users to add, manage, update, and delete student records
+* Provides a modern responsive dashboard experience
+* Includes advanced search, sorting, and filtering functionality
+* Displays student data using responsive tables and animated cards
+* Supports smooth transitions and lightweight animations
+* Stores student information securely in a database
+* Provides secure authentication and role-based access
+* Maintains scalable backend architecture and optimized frontend performance
 
 ---
 
-# 👨‍🎓 Student Data Requirements
+# Student Data Requirements
 
-The system manages:
+The platform should manage student-related information including:
 
-- Personal Information
-- Academic Information
-- Attendance Records
-- Marks and Performance
-- Contact Information
+* Personal Information
+* Academic Information
+* Attendance Records
+* Marks and Performance Data
+* Guardian and Contact Information
 
-Each student record contains:
+Each student record should contain:
 
-- Student Name
-- Roll Number
-- Student ID
-- Email Address
-- Phone Number
-- Date of Birth
-- Gender
-- Address
-- Course Name
-- Department
-- Semester
-- Attendance Percentage
-- Marks
-- Guardian Name
-- Guardian Contact Number
-
----
-
-# ⚙️ Features
-
-## CRUD Operations
-
-Users can:
-
-- Add new student records
-- Edit student information
-- Delete student records
-- Search students instantly
-- Filter students by course or semester
-- Sort records dynamically
-- View detailed student profiles
-- Export student reports
+* Student Name
+* Roll Number
+* Student ID
+* Email Address
+* Phone Number
+* Date of Birth
+* Gender
+* Address
+* Course Name
+* Department
+* Semester
+* Attendance Percentage
+* Marks
+* Guardian Name
+* Guardian Contact Number
 
 ---
 
-# 🖥️ Dashboard Requirements
+# User Functionalities
 
-## Dashboard Includes
+Users should be able to:
 
-- Sidebar Navigation
-- Dashboard Overview
-- Student Records Section
-- Attendance Section
-- Performance Analytics Section
-- Reports Section
-- Settings Section
-
----
-
-# 🎨 UI Requirements
-
-The UI should:
-
-- Be fully responsive
-- Maintain accessibility standards
-- Work smoothly on mobile and desktop
-- Provide smooth scrolling and interactions
-- Include responsive cards and tables
-- Support smooth transitions and animations
+* Add new student records
+* Edit student information
+* Delete student records
+* Search students instantly
+* Filter students by course or semester
+* Sort records dynamically
+* View detailed student profiles
+* Export student reports
+* Manage attendance and performance records
 
 ---
 
-# ✨ Animation Requirements
+# Dashboard and UI Requirements
 
-Animations implemented using:
+## Dashboard Experience
 
-- Framer Motion
+Create a clean, modern, and responsive dashboard interface that provides a professional user experience.
 
-Features include:
+The dashboard should include:
 
-- Fade-in effects
-- Hover transitions
-- Smooth page transitions
-- Animated dashboard cards
-- Smooth table animations
+* Sidebar Navigation
+* Dashboard Overview
+* Student Records Section
+* Attendance Management Section
+* Performance Analytics Section
+* Reports Section
+* Settings Section
 
-Animations should:
+The interface should:
 
-- Be GPU optimized
-- Avoid lagging
-- Maintain smooth user experience
-
----
-
-# 📊 Table & Data Display
-
-Student records displayed using responsive tables with:
-
-- Pagination
-- Search functionality
-- Sorting options
-- Status indicators
-- Edit and delete actions
-- Dynamic loading states
-
-Dashboard analytics include:
-
-- Attendance summaries
-- Performance charts
-- Student analytics
-- Recent activity logs
+* Be fully responsive on mobile, tablet, and desktop
+* Maintain accessibility standards
+* Support smooth scrolling and interactions
+* Include responsive cards and modern tables
+* Use organized layouts and professional navigation
+* Provide smooth transitions and interactive components
 
 ---
 
-# 🔐 Authentication Features
+# Animation Requirements
 
-Secure authentication includes:
+Implement smooth animations using Framer Motion.
 
-- User Registration
-- User Login
-- JWT Authentication
-- Password Encryption
-- Session Management
-- Forgot Password Functionality
+Animations should include:
+
+* Fade-in effects
+* Hover transitions
+* Smooth page transitions
+* Animated dashboard cards
+* Table animations
+* Scroll-based section animations
+
+Ensure animations:
+
+* Are optimized for performance
+* Avoid lagging and layout shifts
+* Use GPU-friendly properties such as transform and opacity
+* Maintain smooth user experience across all devices
 
 ---
 
-# 👥 Role-Based Access
+# Table and Data Display Requirements
+
+Display all student records using responsive tables with:
+
+* Pagination
+* Search functionality
+* Sorting options
+* Status indicators
+* Edit and delete actions
+* Dynamic loading states
+
+The dashboard should also display:
+
+* Attendance summaries
+* Student analytics
+* Performance charts
+* Recent activity logs
+
+---
+
+# Authentication Requirements
+
+Implement secure authentication features including:
+
+* User Registration
+* User Login
+* JWT Authentication
+* Password Encryption
+* Session Management
+* Forgot Password Functionality
+
+Role-based access should include:
 
 ## Admin
 
-Admins can:
+Admins should be able to:
 
-- Manage all student records
-- Manage users and permissions
-- Generate reports
-- Monitor system activity
+* Manage all student records
+* Manage users and permissions
+* Generate reports
+* Monitor system activity
 
 ## Teacher
 
-Teachers can:
+Teachers should be able to:
 
-- Manage student attendance
-- View student performance
-- Update marks
+* Manage attendance records
+* View student performance
+* Update marks and grades
 
 ## Staff Member
 
-Staff members can:
+Staff members should be able to:
 
-- Manage student records
-- Generate reports
-
----
-
-# 🛠️ Backend Requirements
-
-Backend should:
-
-- Implement secure REST APIs
-- Handle CRUD operations efficiently
-- Manage authentication securely
-- Process search and filtering requests
-- Handle report generation
-- Return structured JSON responses
+* Manage student information
+* Generate student reports
 
 ---
 
-# 🗄️ Database Requirements
+# Backend Requirements
 
-Database stores:
+The backend should:
 
-- Student Records
-- Attendance Data
-- Marks and Grades
-- User Information
-- Activity Logs
-- Reports
-
-Supported Databases:
-
-- MongoDB
-- PostgreSQL
+* Implement secure REST API endpoints
+* Handle CRUD operations efficiently
+* Manage authentication securely
+* Process search and filtering requests
+* Handle report generation
+* Return structured JSON responses
+* Maintain scalable architecture
 
 ---
 
-# 🔒 Security Requirements
+# Database Requirements
+
+Use MongoDB or PostgreSQL to store:
+
+* Student Records
+* Attendance Data
+* Marks and Grades
+* User Information
+* Reports
+* Activity Logs
+
+---
+
+# Security Requirements
 
 The application must:
 
-- Sanitize all user inputs
-- Prevent XSS attacks
-- Prevent SQL/NoSQL Injection attacks
-- Validate email and phone number formats
-- Ensure secure API communication
+* Sanitize all user inputs
+* Prevent XSS attacks
+* Prevent SQL/NoSQL injection attacks
+* Validate email and phone number formats properly
+* Ensure secure API communication
+* Protect sensitive user data
 
 ---
 
-# ⚠️ Error Handling
+# Error Handling Requirements
 
-System should:
+The system should:
 
-- Handle frontend validation errors gracefully
-- Handle backend API failures properly
-- Provide structured error responses
-- Log failures securely
-- Show user-friendly success/error notifications
-
----
-
-# 🚀 Performance & Scalability
-
-System should:
-
-- Optimize database queries
-- Lazy-load heavy components
-- Optimize bundle size
-- Support high traffic
-- Maintain smooth dashboard performance
-- Ensure accessibility and SEO optimization
+* Handle frontend validation errors gracefully
+* Handle backend API failures properly
+* Provide structured error responses
+* Log backend failures securely
+* Show user-friendly success and error notifications
 
 ---
 
-# 📁 Documentation Requirements
+# Performance and Scalability
 
-Documentation includes:
+The application should:
 
-- Folder Structure
-- API Routes
-- Database Schema
-- Setup Instructions
-- Environment Variables
-- Deployment Steps
+* Optimize database queries
+* Lazy-load heavy components
+* Optimize frontend bundle size
+* Support high traffic efficiently
+* Maintain smooth dashboard performance
+* Ensure accessibility and SEO optimization
 
 ---
 
-# 💻 Technology Stack
+# Documentation Requirements
+
+Provide proper documentation including:
+
+* Folder Structure
+* API Routes
+* Database Schema
+* Setup Instructions
+* Environment Variable Configuration
+* Deployment Steps
+
+---
+
+# Technology Stack
 
 ## Frontend
 
-- React.js / Next.js
-- Tailwind CSS
-- Framer Motion
+* React.js or Next.js
+* Tailwind CSS
+* Framer Motion
 
 ## Backend
 
-- Node.js
-- Express.js
+* Node.js
+* Express.js
 
 ## Database
 
-- MongoDB / PostgreSQL
+* MongoDB or PostgreSQL
 
 ## Authentication
 
-- JWT Authentication
-- bcrypt.js
+* JWT Authentication
+* bcrypt.js
 
 ---
 
-# 🌟 Optional Features
+# Optional Features
 
-- Dark Mode
-- Excel/CSV Export
-- Real-Time Notifications
-- Email Notifications
-- File Upload System
-- Student ID Card Generation
-
----
-
-# ✅ Expected Final Result
-
-The final application should provide:
-
-- Professional Student Management Dashboard
-- Responsive Modern UI
-- Secure Student Data Handling
-- Smooth User Experience
-- Fully Functional CRUD Operations
-- Scalable Backend Architecture
-- Beginner-Friendly Code Structure
-- Production-Ready Application
+* Dark Mode
+* Excel/CSV Export
+* Real-Time Notifications
+* Email Notifications
+* File Upload System
+* Student ID Card Generation
+* Analytics Dashboard
+* Attendance Charts
 
 ---
 
-# 📂 Suggested Folder Structure
+# Expected Final Result
+
+The final application should deliver:
+
+* A professional Student Data Management System
+* Responsive and modern dashboard UI
+* Secure student data handling
+* Smooth user experience
+* Fully functional CRUD operations
+* Responsive data tables and cards
+* Scalable backend architecture
+* Beginner-friendly code structure
+* Production-ready full-stack application
+
+---
+
+# Suggested Folder Structure
 
 ```bash
 student-management-system/
@@ -333,3 +335,4 @@ student-management-system/
 ├── package.json
 ├── README.md
 └── .env
+```
